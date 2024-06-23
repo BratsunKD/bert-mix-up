@@ -7,12 +7,19 @@ Augmenting data with mixup for text classification
 
 В качестве encoder была взята модель https://huggingface.co/google-bert/bert-base-cased , датасет - https://huggingface.co/datasets/cornell-movie-review-data/rotten_tomatoes
 Mix up эмбеддингов на уровне токена(слева) и на уровне предложения(справа)
+
+
 ![mix_up_image](https://github.com/BratsunKD/bert-mix-up/assets/147521482/51f6f98d-8684-4f3c-8e73-4ab0c71ed130)
 
 Смешивание на уровне эмбеддингов токенов: 
+
+
+
 ![word_mix_up](https://github.com/BratsunKD/bert-mix-up/assets/147521482/c9d83374-49c0-4398-a85a-2342c5ec053d)
 
 На уровне эмбеддингов текстов:
+
+
 ![sentence_mix_up](https://github.com/BratsunKD/bert-mix-up/assets/147521482/15cb6baa-5b8a-491b-9d6b-16512ee766c7)
 
 Лямбда берется из распределения Beta(α, α), где α - гиперпараметр. 
