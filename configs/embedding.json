@@ -1,0 +1,14 @@
+{
+    "num_epochs": 6,
+    "learning_rate": 1e-5,
+    "batch_size": 32,
+    "output_dir": "output/mixup_embedding",
+    "submit_file": "submit/mixup_embedding_predictions.csv",
+    "num_classes": 2,
+    "mixup_type": "embedding",
+    "dataset_name": "rotten_tomatoes",
+    "alpha": 0.9,
+    "model_path": "bert-base-cased",
+    "p": 0.6,
+    "max_len": 256
+}

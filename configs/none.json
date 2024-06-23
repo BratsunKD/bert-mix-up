@@ -1,0 +1,14 @@
+{
+    "num_epochs": 4,
+    "learning_rate": 1e-5,
+    "batch_size": 16,
+    "output_dir": "output/no_mixup",
+    "submit_file":"submit/no_mixup_predictions.csv",
+    "num_classes": 2,
+    "mixup_type": "none",
+    "dataset_name": "rotten_tomatoes", 
+    "alpha": 0.9, 
+    "model_path": "bert-base-cased",
+    "p" : 0.7, 
+    "max_len": 256
+}
